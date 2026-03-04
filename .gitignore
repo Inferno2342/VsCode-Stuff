@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env.*
+instance/
+.vscode/
+.Python
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+.DS_Store
+Thumbs.db
