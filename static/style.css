@@ -1,4 +1,24 @@
 h1{
-    text-align: center;
-    color:red;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    color: white;
 }
+body{
+    background-color: rgb(97, 97, 203);
+}
+form{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.weather-icon {
+    display: block;
+    margin: 20px auto;   /* centers the image */
+    width: 120px;        /* adjust size */
+    height: auto;        /* keeps proportions */
+}
+

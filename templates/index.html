@@ -7,6 +7,20 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body> 
+    <img src="" class="weather-icon">
+    
     <h1>Weather Searcher</h1>
+    <form action="/" method="post">
+        <input type="text" name="city" placeholder="Enter city name" required>
+        <button type="submit">Search</button>
+
+    <form action="/city" method="post">
+        <input type="text" name="state" placeholder="Enter state name" required>
+        <button type="submit">Search</button>
+    
+    <form action="/country" method="post">
+        <input type="text" name="country" placeholder="Enter country name" required>
+        <button type="submit">Search</button>
+    
 </body>
 </html>
